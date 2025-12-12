@@ -1,4 +1,6 @@
 <script>
+
+
     let water = 0;
 
 
@@ -31,7 +33,8 @@
         margin-top: 10px;
         color: #6b1f8c;
         text-shadow: 2px 2px 15px #ffffff;
-    
+        font-family: 'Handjet';
+        letter-spacing: 0.1em;
     }
 
     .dropletIcon {
