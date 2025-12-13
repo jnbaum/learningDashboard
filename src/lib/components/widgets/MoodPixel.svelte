@@ -18,8 +18,8 @@
         padding: 5px;
         text-align: center;
         box-shadow: 5px 5px #6dd5fa;
-        width: 180px;
-        height: 180px;
+        width: 175px;
+        height: 175px;
         
     }
 

@@ -1,22 +1,44 @@
 <script>
+import Todo from '$lib/components/widgets/Todo.svelte';
 import MoodPixel from '$lib/components/widgets/MoodPixel.svelte';
 import PhotoRotate from '$lib/components/widgets/PhotoRotate.svelte';
 import WaterCounter from '$lib/components/widgets/WaterCounter.svelte';
+import DNDLight from '$lib/components/widgets/DNDLight.svelte';
+import StretchReminder from '$lib/components/widgets/StretchReminder.svelte';
+import StarAnimation from '$lib/components/visuals/StarAnimation.svelte';
+import Pomodoro from '$lib/components/widgets/Pomodoro.svelte';
+import HabitTracker from '$lib/components/widgets/HabitTracker.svelte';
 
 </script>
 
 <style>
+
     .module{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 50px;
+        z-index: 50;
+        width: 580px;
+        max-width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 12px;
         justify-items: center;
         align-items: center;
     }
 </style>
 
 <div class="module">
-    <MoodPixel />
-    <PhotoRotate />
+    <Todo />
     <WaterCounter />
+    <DNDLight />
+    <StretchReminder />
+    <StarAnimation />
+    <PhotoRotate />
+    <Pomodoro />
+    <HabitTracker />
+    <MoodPixel />
+
+   
 </div>
