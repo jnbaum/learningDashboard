@@ -1,5 +1,6 @@
 <script>
-import WaterCounter from '$lib/components/widgets/WaterCounter.svelte';
+import PhotoRotate from '$lib/components/widgets/PhotoRotate.svelte';
+import MoodPixel from '$lib/components/widgets/MoodPixel.svelte';
 </script>
 
 
@@ -8,4 +9,5 @@ import WaterCounter from '$lib/components/widgets/WaterCounter.svelte';
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 
 
-<WaterCounter />
+<PhotoRotate />
+<MoodPixel />

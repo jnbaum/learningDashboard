@@ -8,15 +8,16 @@
     //long tap-reset water count and make a different sound
 </script>
 
-<section id = module>
-<div class = waterTracker>
-    <h3 class = cardTitle>Water Tracker</h3>
-    <img src = "src/lib/assets/ui/droplet.png" alt = "water droplet icon" class = dropletIcon >
+
+<section>
+<div class="water-tracker">
+    <h3 class="card-title">Water Tracker</h3>
+    <img src="src/lib/assets/ui/droplet.png" alt="water droplet icon" class="droplet-icon">
 </div>
 </section>
 
 <style>
-    .waterTracker {
+    .water-tracker {
         background-color: #E43393;
         border-radius: 20px;
         border: 1px solid #191435;
@@ -28,16 +29,17 @@
         
     }
 
-    .cardTitle {
-        font-size: 24px;
-        margin-top: 10px;
+    .card-title {
+        font-size: 30px;
+        margin-top: 3px;
         color: #6b1f8c;
         text-shadow: 2px 2px 15px #ffffff;
         font-family: 'Handjet';
-        letter-spacing: 0.1em;
+        font-weight: 800;
+        letter-spacing: 0.05em;
     }
 
-    .dropletIcon {
+    .droplet-icon {
         width: 40px;
         height: 40px;
     }
