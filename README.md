@@ -1,58 +1,77 @@
-# Svelte library
+# ⭐ Tech & Skills Used
+A curated overview of the tools, technologies, and methodologies powering this project.
 
-Everything you need to build a Svelte library, powered by [`sv`](https://npmjs.com/package/sv).
+---
 
-Read more about creating a library [in the docs](https://svelte.dev/docs/kit/packaging).
+## 🎨 UI / UX & Visual Design
+- UI mockups (Procreate, Canva)  
+- Neon cyber-retro color palettes  
+- Component-focused layout design  
+- Pixel artwork + small sprite animations  
+- Custom icon theming and visual consistency  
+- Responsive grid + card-based interface  
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 💻 Frontend Technologies
+- **Svelte / SvelteKit** – component architecture & reactive UI  
+- **JavaScript (ES6+)** – logic, API calls, utilities  
+- **HTML5 & CSS3** – structure and styling  
+- **Vite** – fast development server & build tooling  
 
-```sh
-# create a new project in the current directory
-npx sv create
+---
 
-# create a new project in my-app
-npx sv create my-app
-```
+## 🧠 Application Architecture
+- Component modularization  
+- Reactive state management via **Svelte stores**  
+- Service-layer API abstraction  
+- Utility helpers for formatting & mapping  
+- Clear separation of concerns:  
+  **UI → Stores → Services → APIs**  
+- Asset management pipeline (icons, animations, sprites)
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🌐 API & Data Handling
+- REST API integration (weather, productivity, etc.)  
+- Fetching & parsing remote data  
+- Error handling + fallback states  
+- Local caching for persistent widget data  
+- Dynamic icon mapping (weather condition → icon)
 
-```sh
-npm run dev
+---
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## ⏱️ Widget Logic & Interactions
+- Real-time clocks & timers  
+- Pomodoro timing behavior  
+- Animated critter display  
+- Mood tracking with pixel emojis  
+- Interactive counters (water, habits, stretch reminders)  
+- Photo rotation logic  
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+---
 
-## Building
+## 📦 State & Data Persistence
+- Reactive store updates  
+- LocalStorage-backed widgets  
+- Derived data for computed values  
+- Time-based reactive updates
 
-To build your library:
+---
 
-```sh
-npm pack
-```
+## 🛠️ DevOps & Deployment (for Raspberry Pi)
+- Static site deployment to Raspberry Pi  
+- Kiosk-mode configuration for always-on dashboard displays  
+- Linux system setup and management  
+- *(Optional future)* GPIO + LED integration
 
-To create a production version of your showcase app:
+---
 
-```sh
-npm run build
-```
+## 🧪 Development Workflow
+- Version control with Git & GitHub  
+- Iterative prototyping & UI adjustments  
+- Modular folder structure for scalability  
+- Inline documentation + clean code style  
+- Asset organization + naming conventions  
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```sh
-npm publish
-```
+---

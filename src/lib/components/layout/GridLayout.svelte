@@ -8,6 +8,7 @@ import StretchReminder from '$lib/components/widgets/StretchReminder.svelte';
 import StarAnimation from '$lib/components/visuals/StarAnimation.svelte';
 import Pomodoro from '$lib/components/widgets/Pomodoro.svelte';
 import HabitTracker from '$lib/components/widgets/HabitTracker.svelte';
+import DividingLine from '$lib/components/widgets/DividingLine.svelte';
 
 </script>
 
@@ -29,6 +30,13 @@ import HabitTracker from '$lib/components/widgets/HabitTracker.svelte';
     }
 </style>
 
+
+<DividingLine />
+<DividingLine />
+
+<DividingLine />
+<DividingLine />
+
 <div class="module">
     <Todo />
     <WaterCounter />
@@ -39,6 +47,6 @@ import HabitTracker from '$lib/components/widgets/HabitTracker.svelte';
     <Pomodoro />
     <HabitTracker />
     <MoodPixel />
-
-   
 </div>
+<DividingLine />
+<DividingLine />
