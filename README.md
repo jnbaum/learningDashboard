@@ -3,7 +3,7 @@ A curated overview of the tools, technologies, and methodologies powering this p
 
 ---
 
-## 🎨 UI / UX & Visual Design
+## UI / UX & Visual Design
 - UI mockups (Procreate, Canva)  
 - Neon cyber-retro color palettes  
 - Component-focused layout design  
@@ -13,7 +13,7 @@ A curated overview of the tools, technologies, and methodologies powering this p
 
 ---
 
-## 💻 Frontend Technologies
+## Frontend Technologies
 - **Svelte / SvelteKit** – component architecture & reactive UI  
 - **JavaScript (ES6+)** – logic, API calls, utilities  
 - **HTML5 & CSS3** – structure and styling  
@@ -21,7 +21,7 @@ A curated overview of the tools, technologies, and methodologies powering this p
 
 ---
 
-## 🧠 Application Architecture
+## Application Architecture
 - Component modularization  
 - Reactive state management via **Svelte stores**  
 - Service-layer API abstraction  
@@ -32,7 +32,7 @@ A curated overview of the tools, technologies, and methodologies powering this p
 
 ---
 
-## 🌐 API & Data Handling
+## API & Data Handling
 - REST API integration (weather, productivity, etc.)  
 - Fetching & parsing remote data  
 - Error handling + fallback states  
@@ -41,7 +41,7 @@ A curated overview of the tools, technologies, and methodologies powering this p
 
 ---
 
-## ⏱️ Widget Logic & Interactions
+## Widget Logic & Interactions
 - Real-time clocks & timers  
 - Pomodoro timing behavior  
 - Animated critter display  
@@ -51,7 +51,7 @@ A curated overview of the tools, technologies, and methodologies powering this p
 
 ---
 
-## 📦 State & Data Persistence
+## State & Data Persistence
 - Reactive store updates  
 - LocalStorage-backed widgets  
 - Derived data for computed values  
@@ -59,7 +59,7 @@ A curated overview of the tools, technologies, and methodologies powering this p
 
 ---
 
-## 🛠️ DevOps & Deployment (for Raspberry Pi)
+## DevOps & Deployment (for Raspberry Pi)
 - Static site deployment to Raspberry Pi  
 - Kiosk-mode configuration for always-on dashboard displays  
 - Linux system setup and management  
@@ -67,7 +67,7 @@ A curated overview of the tools, technologies, and methodologies powering this p
 
 ---
 
-## 🧪 Development Workflow
+## Development Workflow
 - Version control with Git & GitHub  
 - Iterative prototyping & UI adjustments  
 - Modular folder structure for scalability  
