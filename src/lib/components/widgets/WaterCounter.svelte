@@ -12,7 +12,7 @@
 <section>
 <div class="water-tracker">
     <h3 class="card-title">Water Tracker</h3>
-    <img src="src/lib/assets/ui/droplet.png" alt="water droplet icon" class="droplet-icon">
+    <!--<img src="src/lib/assets/ui/droplet.png" alt="water droplet icon" class="droplet-icon">-->
 </div>
 </section>
 

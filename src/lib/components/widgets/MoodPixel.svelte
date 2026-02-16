@@ -6,7 +6,7 @@
 <section>
 <div class="mood-pixel">
         <h3 class="card-title">Current Mood</h3>
-    <img src = "src/lib/assets/ui/droplet.png" alt = "water droplet icon" class = dropletIcon >
+   <!-- literally why is this here? <img src = "src/lib/assets/ui/droplet.png" alt = "water droplet icon" class = dropletIcon >-->
 </div>
 </section>
 

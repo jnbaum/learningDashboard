@@ -31,12 +31,6 @@ import DividingLine from '$lib/components/widgets/DividingLine.svelte';
 </style>
 
 
-<DividingLine />
-<DividingLine />
-
-<DividingLine />
-<DividingLine />
-
 <div class="module">
     <Todo />
     <WaterCounter />
@@ -48,5 +42,3 @@ import DividingLine from '$lib/components/widgets/DividingLine.svelte';
     <HabitTracker />
     <MoodPixel />
 </div>
-<DividingLine />
-<DividingLine />
